@@ -24,7 +24,6 @@ img {
     width: 100%;
 }
 
-/* Dưới 772px: 1 cột dọc */
 div {
     display: block;
     width: 90%;
@@ -40,7 +39,6 @@ div img {
     margin: 0 auto;
 }
 
-/* >= 772px (Tablet View): 2 cột (45vw) & ảnh cao tối đa 30vh */
 @media screen and (min-width: 772px) {
     div {
         display: inline-block;
@@ -56,7 +54,6 @@ div img {
     }
 }
 
-/* >= 998px (Large Screen View): 3 cột (30vw) */
 @media screen and (min-width: 998px) {
     div {
         width: 30vw;
